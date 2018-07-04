@@ -1,6 +1,5 @@
 <resources>
     <string name="app_name">ReactNativePatch</string>
-    <string moduleConfig="true" name="reactNativeCodePush_androidDeploymentId">20180531164500260-5525</string>
-    <string moduleConfig="true" name="reactNativeCodePush_androidDeploymentKey">95e26c053ac49056001e9e224ffa8b79</string>
+    <string moduleConfig="true" name="reactNativeCodePush_androidDeploymentKey">VnvRbdgdvVurFk03N4vPnHZcIRUG4ksvOXqog</string>
     <string moduleConfig="true" name="reactNativeCodePush_androidDeploymentServer">http://127.0.01:9011/</string>
 </resources>

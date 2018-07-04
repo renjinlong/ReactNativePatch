@@ -30,7 +30,11 @@ public class MainApplication extends Application implements ReactApplication {
         protected List<ReactPackage> getPackages() {
             return Arrays.<ReactPackage>asList(
                     new MainReactPackage(),
-                    new CodePush(getResources().getString(R.string.reactNativeCodePush_androidDeploymentKey), getApplicationContext(), BuildConfig.DEBUG)
+                    new CodePush(
+                        getResources().getString(R.string.reactNativeCodePush_androidDeploymentKey), 
+                        getApplicationContext(), 
+                        BuildConfig.DEBUG,
+                        "http://172.18.40.92:3000")
             );
         }
 

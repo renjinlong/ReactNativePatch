@@ -31,7 +31,7 @@ export default class App extends Component<Props> {
       installMode: codePush.InstallMode.IMMEDIATE,
       mandatoryInstallMode: codePush.InstallMode.IMMEDIATE,
       //deploymentKey为刚才生成的,打包哪个平台的App就使用哪个Key,这里用IOS的打包测试
-      deploymentKey: 'IjC3_iRGEZE8-9ikmBZ4ITJTz9wn6dec4087-57cf-4c9d-b0dc-ad38ce431e1d',
+      // deploymentKey: 'IjC3_iRGEZE8-9ikmBZ4ITJTz9wn6dec4087-57cf-4c9d-b0dc-ad38ce431e1d',
     });
   }
 
