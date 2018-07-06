@@ -4165,9 +4165,9 @@ react-is@^16.3.1:
   version "16.4.0"
   resolved "http://registry.npm.taobao.org/react-is/download/react-is-16.4.0.tgz#cc9fdc855ac34d2e7d9d2eb7059bbc240d35ffcf"
 
-react-native-patching@^1.0.2:
+react-native-sxf-patchclient@^1.0.2:
   version "1.0.2"
-  resolved "http://registry.npm.taobao.org/react-native-patching/download/react-native-patching-1.0.2.tgz#066dd63803bb041af4ab261ad2ec64790354f652"
+  resolved "http://registry.npm.taobao.org/react-native-sxf-patchclient/download/react-native-sxf-patchclient-1.0.2.tgz#dc413bbc349ef3a64d65188e3f7c58372faa90e7"
 
 react-native@0.55.4:
   version "0.55.4"

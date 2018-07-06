@@ -22,6 +22,56 @@
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		140ED2AC1D01E1AD002B40FF /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 146834041AC3E56700842450 /* libReact.a */; };
 		146834051AC3E58100842450 /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 146834041AC3E56700842450 /* libReact.a */; };
+		1A10445820EDCBF60006EECE /* MF_Base64Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A1043E820EDCBF60006EECE /* MF_Base64Additions.m */; };
+		1A10445920EDCBF60006EECE /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 1A1043E920EDCBF60006EECE /* README.md */; };
+		1A10445A20EDCBF60006EECE /* CodePush.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A1043EB20EDCBF60006EECE /* CodePush.m */; };
+		1A10445B20EDCBF60006EECE /* CodePushConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A1043EC20EDCBF60006EECE /* CodePushConfig.m */; };
+		1A10445C20EDCBF60006EECE /* CodePushDownloadHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A1043ED20EDCBF60006EECE /* CodePushDownloadHandler.m */; };
+		1A10445D20EDCBF60006EECE /* CodePushErrorUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A1043EE20EDCBF60006EECE /* CodePushErrorUtils.m */; };
+		1A10445E20EDCBF60006EECE /* CodePushPackage.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A1043EF20EDCBF60006EECE /* CodePushPackage.m */; };
+		1A10445F20EDCBF60006EECE /* CodePushTelemetryManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A1043F020EDCBF60006EECE /* CodePushTelemetryManager.m */; };
+		1A10446020EDCBF60006EECE /* CodePushUpdateUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A1043F120EDCBF60006EECE /* CodePushUpdateUtils.m */; };
+		1A10446120EDCBF60006EECE /* CodePushUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A1043F220EDCBF60006EECE /* CodePushUtils.m */; };
+		1A10446220EDCBF60006EECE /* JWTAlgorithmFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A1043F920EDCBF60006EECE /* JWTAlgorithmFactory.m */; };
+		1A10446320EDCBF60006EECE /* JWTAlgorithmNone.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A1043FB20EDCBF60006EECE /* JWTAlgorithmNone.m */; };
+		1A10446420EDCBF60006EECE /* JWTAlgorithmESBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A1043FE20EDCBF60006EECE /* JWTAlgorithmESBase.m */; };
+		1A10446520EDCBF60006EECE /* JWTAlgorithmDataHolder.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A10440120EDCBF60006EECE /* JWTAlgorithmDataHolder.m */; };
+		1A10446620EDCBF60006EECE /* JWTAlgorithmDataHolderChain.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A10440320EDCBF60006EECE /* JWTAlgorithmDataHolderChain.m */; };
+		1A10446720EDCBF60006EECE /* JWTAlgorithmHSBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A10440620EDCBF60006EECE /* JWTAlgorithmHSBase.m */; };
+		1A10446820EDCBF60006EECE /* JWTAlgorithmRSBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A10440920EDCBF60006EECE /* JWTAlgorithmRSBase.m */; };
+		1A10446920EDCBF60006EECE /* JWTCryptoKey.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A10440D20EDCBF60006EECE /* JWTCryptoKey.m */; };
+		1A10446A20EDCBF60006EECE /* JWTCryptoKeyExtractor.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A10440F20EDCBF60006EECE /* JWTCryptoKeyExtractor.m */; };
+		1A10446B20EDCBF60006EECE /* JWTCryptoSecurity.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A10441120EDCBF60006EECE /* JWTCryptoSecurity.m */; };
+		1A10446C20EDCBF60006EECE /* JWTClaim.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A10441420EDCBF60006EECE /* JWTClaim.m */; };
+		1A10446D20EDCBF60006EECE /* JWTClaimsSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A10441620EDCBF60006EECE /* JWTClaimsSet.m */; };
+		1A10446E20EDCBF60006EECE /* JWTClaimsSetSerializer.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A10441820EDCBF60006EECE /* JWTClaimsSetSerializer.m */; };
+		1A10446F20EDCBF60006EECE /* JWTClaimsSetVerifier.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A10441A20EDCBF60006EECE /* JWTClaimsSetVerifier.m */; };
+		1A10447020EDCBF60006EECE /* JWTCoding+ResultTypes.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A10441D20EDCBF60006EECE /* JWTCoding+ResultTypes.m */; };
+		1A10447120EDCBF60006EECE /* JWTCoding+VersionOne.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A10441F20EDCBF60006EECE /* JWTCoding+VersionOne.m */; };
+		1A10447220EDCBF60006EECE /* JWTCoding+VersionThree.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A10442120EDCBF60006EECE /* JWTCoding+VersionThree.m */; };
+		1A10447320EDCBF60006EECE /* JWTCoding+VersionTwo.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A10442320EDCBF60006EECE /* JWTCoding+VersionTwo.m */; };
+		1A10447420EDCBF60006EECE /* JWTCoding.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A10442520EDCBF60006EECE /* JWTCoding.m */; };
+		1A10447520EDCBF60006EECE /* JWTBase64Coder.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A10442B20EDCBF60006EECE /* JWTBase64Coder.m */; };
+		1A10447620EDCBF60006EECE /* JWTErrorDescription.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A10442E20EDCBF60006EECE /* JWTErrorDescription.m */; };
+		1A10447720EDCBF60006EECE /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 1A10442F20EDCBF60006EECE /* LICENSE */; };
+		1A10447820EDCBF60006EECE /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 1A10443020EDCBF60006EECE /* README.md */; };
+		1A10447920EDCBF60006EECE /* RCTConvert+CodePushInstallMode.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A10443120EDCBF60006EECE /* RCTConvert+CodePushInstallMode.m */; };
+		1A10447A20EDCBF60006EECE /* RCTConvert+CodePushUpdateState.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A10443220EDCBF60006EECE /* RCTConvert+CodePushUpdateState.m */; };
+		1A10447B20EDCBF60006EECE /* aescrypt.c in Sources */ = {isa = PBXBuildFile; fileRef = 1A10443720EDCBF60006EECE /* aescrypt.c */; };
+		1A10447C20EDCBF60006EECE /* aeskey.c in Sources */ = {isa = PBXBuildFile; fileRef = 1A10443820EDCBF60006EECE /* aeskey.c */; };
+		1A10447D20EDCBF60006EECE /* aestab.c in Sources */ = {isa = PBXBuildFile; fileRef = 1A10443A20EDCBF60006EECE /* aestab.c */; };
+		1A10447E20EDCBF60006EECE /* entropy.c in Sources */ = {isa = PBXBuildFile; fileRef = 1A10443E20EDCBF60006EECE /* entropy.c */; };
+		1A10447F20EDCBF60006EECE /* fileenc.c in Sources */ = {isa = PBXBuildFile; fileRef = 1A10444020EDCBF60006EECE /* fileenc.c */; };
+		1A10448020EDCBF60006EECE /* hmac.c in Sources */ = {isa = PBXBuildFile; fileRef = 1A10444220EDCBF60006EECE /* hmac.c */; };
+		1A10448120EDCBF60006EECE /* prng.c in Sources */ = {isa = PBXBuildFile; fileRef = 1A10444420EDCBF60006EECE /* prng.c */; };
+		1A10448220EDCBF60006EECE /* pwd2key.c in Sources */ = {isa = PBXBuildFile; fileRef = 1A10444620EDCBF60006EECE /* pwd2key.c */; };
+		1A10448320EDCBF60006EECE /* sha1.c in Sources */ = {isa = PBXBuildFile; fileRef = 1A10444820EDCBF60006EECE /* sha1.c */; };
+		1A10448420EDCBF60006EECE /* ioapi.c in Sources */ = {isa = PBXBuildFile; fileRef = 1A10444D20EDCBF60006EECE /* ioapi.c */; };
+		1A10448520EDCBF60006EECE /* mztools.c in Sources */ = {isa = PBXBuildFile; fileRef = 1A10444F20EDCBF60006EECE /* mztools.c */; };
+		1A10448620EDCBF60006EECE /* unzip.c in Sources */ = {isa = PBXBuildFile; fileRef = 1A10445120EDCBF60006EECE /* unzip.c */; };
+		1A10448720EDCBF60006EECE /* zip.c in Sources */ = {isa = PBXBuildFile; fileRef = 1A10445320EDCBF60006EECE /* zip.c */; };
+		1A10448820EDCBF60006EECE /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 1A10445520EDCBF60006EECE /* README.md */; };
+		1A10448920EDCBF60006EECE /* SSZipArchive.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A10445720EDCBF60006EECE /* SSZipArchive.m */; };
 		2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
@@ -103,6 +153,13 @@
 			proxyType = 2;
 			remoteGlobalIDString = 83CBBA2E1A601D0E00E9B192;
 			remoteInfo = React;
+		};
+		1A10412A20EC67510006EECE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1A10410120EC67510006EECE /* RNReactNativeSxfPatchclient.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 134814201AA4EA6300B7C361;
+			remoteInfo = RNReactNativeSxfPatchclient;
 		};
 		2D02E4911E0B4A5D006451C7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -336,6 +393,104 @@
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = ReactNativePatch/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = ReactNativePatch/main.m; sourceTree = "<group>"; };
 		146833FF1AC3E56700842450 /* React.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = React.xcodeproj; path = "../node_modules/react-native/React/React.xcodeproj"; sourceTree = "<group>"; };
+		1A10410120EC67510006EECE /* RNReactNativeSxfPatchclient.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RNReactNativeSxfPatchclient.xcodeproj; path = "../node_modules/react-native-sxf-patchclient/ios/RNReactNativeSxfPatchclient.xcodeproj"; sourceTree = "<group>"; };
+		1A1043E720EDCBF60006EECE /* MF_Base64Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MF_Base64Additions.h; sourceTree = "<group>"; };
+		1A1043E820EDCBF60006EECE /* MF_Base64Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MF_Base64Additions.m; sourceTree = "<group>"; };
+		1A1043E920EDCBF60006EECE /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		1A1043EA20EDCBF60006EECE /* CodePush.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CodePush.h; sourceTree = "<group>"; };
+		1A1043EB20EDCBF60006EECE /* CodePush.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CodePush.m; sourceTree = "<group>"; };
+		1A1043EC20EDCBF60006EECE /* CodePushConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CodePushConfig.m; sourceTree = "<group>"; };
+		1A1043ED20EDCBF60006EECE /* CodePushDownloadHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CodePushDownloadHandler.m; sourceTree = "<group>"; };
+		1A1043EE20EDCBF60006EECE /* CodePushErrorUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CodePushErrorUtils.m; sourceTree = "<group>"; };
+		1A1043EF20EDCBF60006EECE /* CodePushPackage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CodePushPackage.m; sourceTree = "<group>"; };
+		1A1043F020EDCBF60006EECE /* CodePushTelemetryManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CodePushTelemetryManager.m; sourceTree = "<group>"; };
+		1A1043F120EDCBF60006EECE /* CodePushUpdateUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CodePushUpdateUtils.m; sourceTree = "<group>"; };
+		1A1043F220EDCBF60006EECE /* CodePushUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CodePushUtils.m; sourceTree = "<group>"; };
+		1A1043F720EDCBF60006EECE /* JWTAlgorithm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JWTAlgorithm.h; sourceTree = "<group>"; };
+		1A1043F820EDCBF60006EECE /* JWTAlgorithmFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JWTAlgorithmFactory.h; sourceTree = "<group>"; };
+		1A1043F920EDCBF60006EECE /* JWTAlgorithmFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JWTAlgorithmFactory.m; sourceTree = "<group>"; };
+		1A1043FA20EDCBF60006EECE /* JWTAlgorithmNone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JWTAlgorithmNone.h; sourceTree = "<group>"; };
+		1A1043FB20EDCBF60006EECE /* JWTAlgorithmNone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JWTAlgorithmNone.m; sourceTree = "<group>"; };
+		1A1043FD20EDCBF60006EECE /* JWTAlgorithmESBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JWTAlgorithmESBase.h; sourceTree = "<group>"; };
+		1A1043FE20EDCBF60006EECE /* JWTAlgorithmESBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JWTAlgorithmESBase.m; sourceTree = "<group>"; };
+		1A10440020EDCBF60006EECE /* JWTAlgorithmDataHolder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JWTAlgorithmDataHolder.h; sourceTree = "<group>"; };
+		1A10440120EDCBF60006EECE /* JWTAlgorithmDataHolder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JWTAlgorithmDataHolder.m; sourceTree = "<group>"; };
+		1A10440220EDCBF60006EECE /* JWTAlgorithmDataHolderChain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JWTAlgorithmDataHolderChain.h; sourceTree = "<group>"; };
+		1A10440320EDCBF60006EECE /* JWTAlgorithmDataHolderChain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JWTAlgorithmDataHolderChain.m; sourceTree = "<group>"; };
+		1A10440520EDCBF60006EECE /* JWTAlgorithmHSBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JWTAlgorithmHSBase.h; sourceTree = "<group>"; };
+		1A10440620EDCBF60006EECE /* JWTAlgorithmHSBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JWTAlgorithmHSBase.m; sourceTree = "<group>"; };
+		1A10440820EDCBF60006EECE /* JWTAlgorithmRSBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JWTAlgorithmRSBase.h; sourceTree = "<group>"; };
+		1A10440920EDCBF60006EECE /* JWTAlgorithmRSBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JWTAlgorithmRSBase.m; sourceTree = "<group>"; };
+		1A10440A20EDCBF60006EECE /* JWTRSAlgorithm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JWTRSAlgorithm.h; sourceTree = "<group>"; };
+		1A10440C20EDCBF60006EECE /* JWTCryptoKey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JWTCryptoKey.h; sourceTree = "<group>"; };
+		1A10440D20EDCBF60006EECE /* JWTCryptoKey.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JWTCryptoKey.m; sourceTree = "<group>"; };
+		1A10440E20EDCBF60006EECE /* JWTCryptoKeyExtractor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JWTCryptoKeyExtractor.h; sourceTree = "<group>"; };
+		1A10440F20EDCBF60006EECE /* JWTCryptoKeyExtractor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JWTCryptoKeyExtractor.m; sourceTree = "<group>"; };
+		1A10441020EDCBF60006EECE /* JWTCryptoSecurity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JWTCryptoSecurity.h; sourceTree = "<group>"; };
+		1A10441120EDCBF60006EECE /* JWTCryptoSecurity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JWTCryptoSecurity.m; sourceTree = "<group>"; };
+		1A10441320EDCBF60006EECE /* JWTClaim.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JWTClaim.h; sourceTree = "<group>"; };
+		1A10441420EDCBF60006EECE /* JWTClaim.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JWTClaim.m; sourceTree = "<group>"; };
+		1A10441520EDCBF60006EECE /* JWTClaimsSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JWTClaimsSet.h; sourceTree = "<group>"; };
+		1A10441620EDCBF60006EECE /* JWTClaimsSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JWTClaimsSet.m; sourceTree = "<group>"; };
+		1A10441720EDCBF60006EECE /* JWTClaimsSetSerializer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JWTClaimsSetSerializer.h; sourceTree = "<group>"; };
+		1A10441820EDCBF60006EECE /* JWTClaimsSetSerializer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JWTClaimsSetSerializer.m; sourceTree = "<group>"; };
+		1A10441920EDCBF60006EECE /* JWTClaimsSetVerifier.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JWTClaimsSetVerifier.h; sourceTree = "<group>"; };
+		1A10441A20EDCBF60006EECE /* JWTClaimsSetVerifier.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JWTClaimsSetVerifier.m; sourceTree = "<group>"; };
+		1A10441C20EDCBF60006EECE /* JWTCoding+ResultTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "JWTCoding+ResultTypes.h"; sourceTree = "<group>"; };
+		1A10441D20EDCBF60006EECE /* JWTCoding+ResultTypes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "JWTCoding+ResultTypes.m"; sourceTree = "<group>"; };
+		1A10441E20EDCBF60006EECE /* JWTCoding+VersionOne.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "JWTCoding+VersionOne.h"; sourceTree = "<group>"; };
+		1A10441F20EDCBF60006EECE /* JWTCoding+VersionOne.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "JWTCoding+VersionOne.m"; sourceTree = "<group>"; };
+		1A10442020EDCBF60006EECE /* JWTCoding+VersionThree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "JWTCoding+VersionThree.h"; sourceTree = "<group>"; };
+		1A10442120EDCBF60006EECE /* JWTCoding+VersionThree.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "JWTCoding+VersionThree.m"; sourceTree = "<group>"; };
+		1A10442220EDCBF60006EECE /* JWTCoding+VersionTwo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "JWTCoding+VersionTwo.h"; sourceTree = "<group>"; };
+		1A10442320EDCBF60006EECE /* JWTCoding+VersionTwo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "JWTCoding+VersionTwo.m"; sourceTree = "<group>"; };
+		1A10442420EDCBF60006EECE /* JWTCoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JWTCoding.h; sourceTree = "<group>"; };
+		1A10442520EDCBF60006EECE /* JWTCoding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JWTCoding.m; sourceTree = "<group>"; };
+		1A10442720EDCBF60006EECE /* JWT.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JWT.h; sourceTree = "<group>"; };
+		1A10442820EDCBF60006EECE /* Map.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = Map.modulemap; sourceTree = "<group>"; };
+		1A10442A20EDCBF60006EECE /* JWTBase64Coder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JWTBase64Coder.h; sourceTree = "<group>"; };
+		1A10442B20EDCBF60006EECE /* JWTBase64Coder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JWTBase64Coder.m; sourceTree = "<group>"; };
+		1A10442C20EDCBF60006EECE /* JWTDeprecations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JWTDeprecations.h; sourceTree = "<group>"; };
+		1A10442D20EDCBF60006EECE /* JWTErrorDescription.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JWTErrorDescription.h; sourceTree = "<group>"; };
+		1A10442E20EDCBF60006EECE /* JWTErrorDescription.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JWTErrorDescription.m; sourceTree = "<group>"; };
+		1A10442F20EDCBF60006EECE /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		1A10443020EDCBF60006EECE /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		1A10443120EDCBF60006EECE /* RCTConvert+CodePushInstallMode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "RCTConvert+CodePushInstallMode.m"; sourceTree = "<group>"; };
+		1A10443220EDCBF60006EECE /* RCTConvert+CodePushUpdateState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "RCTConvert+CodePushUpdateState.m"; sourceTree = "<group>"; };
+		1A10443520EDCBF60006EECE /* aes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = aes.h; sourceTree = "<group>"; };
+		1A10443620EDCBF60006EECE /* aes_via_ace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = aes_via_ace.h; sourceTree = "<group>"; };
+		1A10443720EDCBF60006EECE /* aescrypt.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = aescrypt.c; sourceTree = "<group>"; };
+		1A10443820EDCBF60006EECE /* aeskey.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = aeskey.c; sourceTree = "<group>"; };
+		1A10443920EDCBF60006EECE /* aesopt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = aesopt.h; sourceTree = "<group>"; };
+		1A10443A20EDCBF60006EECE /* aestab.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = aestab.c; sourceTree = "<group>"; };
+		1A10443B20EDCBF60006EECE /* aestab.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = aestab.h; sourceTree = "<group>"; };
+		1A10443C20EDCBF60006EECE /* brg_endian.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = brg_endian.h; sourceTree = "<group>"; };
+		1A10443D20EDCBF60006EECE /* brg_types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = brg_types.h; sourceTree = "<group>"; };
+		1A10443E20EDCBF60006EECE /* entropy.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = entropy.c; sourceTree = "<group>"; };
+		1A10443F20EDCBF60006EECE /* entropy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = entropy.h; sourceTree = "<group>"; };
+		1A10444020EDCBF60006EECE /* fileenc.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = fileenc.c; sourceTree = "<group>"; };
+		1A10444120EDCBF60006EECE /* fileenc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fileenc.h; sourceTree = "<group>"; };
+		1A10444220EDCBF60006EECE /* hmac.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = hmac.c; sourceTree = "<group>"; };
+		1A10444320EDCBF60006EECE /* hmac.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = hmac.h; sourceTree = "<group>"; };
+		1A10444420EDCBF60006EECE /* prng.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = prng.c; sourceTree = "<group>"; };
+		1A10444520EDCBF60006EECE /* prng.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = prng.h; sourceTree = "<group>"; };
+		1A10444620EDCBF60006EECE /* pwd2key.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = pwd2key.c; sourceTree = "<group>"; };
+		1A10444720EDCBF60006EECE /* pwd2key.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pwd2key.h; sourceTree = "<group>"; };
+		1A10444820EDCBF60006EECE /* sha1.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = sha1.c; sourceTree = "<group>"; };
+		1A10444920EDCBF60006EECE /* sha1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sha1.h; sourceTree = "<group>"; };
+		1A10444A20EDCBF60006EECE /* Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Common.h; sourceTree = "<group>"; };
+		1A10444C20EDCBF60006EECE /* crypt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = crypt.h; sourceTree = "<group>"; };
+		1A10444D20EDCBF60006EECE /* ioapi.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ioapi.c; sourceTree = "<group>"; };
+		1A10444E20EDCBF60006EECE /* ioapi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ioapi.h; sourceTree = "<group>"; };
+		1A10444F20EDCBF60006EECE /* mztools.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = mztools.c; sourceTree = "<group>"; };
+		1A10445020EDCBF60006EECE /* mztools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mztools.h; sourceTree = "<group>"; };
+		1A10445120EDCBF60006EECE /* unzip.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = unzip.c; sourceTree = "<group>"; };
+		1A10445220EDCBF60006EECE /* unzip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = unzip.h; sourceTree = "<group>"; };
+		1A10445320EDCBF60006EECE /* zip.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = zip.c; sourceTree = "<group>"; };
+		1A10445420EDCBF60006EECE /* zip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zip.h; sourceTree = "<group>"; };
+		1A10445520EDCBF60006EECE /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		1A10445620EDCBF60006EECE /* SSZipArchive.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSZipArchive.h; sourceTree = "<group>"; };
+		1A10445720EDCBF60006EECE /* SSZipArchive.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSZipArchive.m; sourceTree = "<group>"; };
 		2D02E47B1E0B4A5D006451C7 /* ReactNativePatch-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ReactNativePatch-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D02E4901E0B4A5D006451C7 /* ReactNativePatch-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ReactNativePatch-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D16E6891FA4F8E400B85C8A /* libReact.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libReact.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -516,6 +671,262 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		1A10410220EC67510006EECE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1A10412B20EC67510006EECE /* libRNReactNativeSxfPatchclient.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1A1043E420EDCBF60006EECE /* CodePush */ = {
+			isa = PBXGroup;
+			children = (
+				1A1043E520EDCBF60006EECE /* Base64 */,
+				1A1043EA20EDCBF60006EECE /* CodePush.h */,
+				1A1043EB20EDCBF60006EECE /* CodePush.m */,
+				1A1043EC20EDCBF60006EECE /* CodePushConfig.m */,
+				1A1043ED20EDCBF60006EECE /* CodePushDownloadHandler.m */,
+				1A1043EE20EDCBF60006EECE /* CodePushErrorUtils.m */,
+				1A1043EF20EDCBF60006EECE /* CodePushPackage.m */,
+				1A1043F020EDCBF60006EECE /* CodePushTelemetryManager.m */,
+				1A1043F120EDCBF60006EECE /* CodePushUpdateUtils.m */,
+				1A1043F220EDCBF60006EECE /* CodePushUtils.m */,
+				1A1043F320EDCBF60006EECE /* JWT */,
+				1A10443120EDCBF60006EECE /* RCTConvert+CodePushInstallMode.m */,
+				1A10443220EDCBF60006EECE /* RCTConvert+CodePushUpdateState.m */,
+				1A10443320EDCBF60006EECE /* SSZipArchive */,
+			);
+			path = CodePush;
+			sourceTree = "<group>";
+		};
+		1A1043E520EDCBF60006EECE /* Base64 */ = {
+			isa = PBXGroup;
+			children = (
+				1A1043E620EDCBF60006EECE /* Base64 */,
+				1A1043E920EDCBF60006EECE /* README.md */,
+			);
+			path = Base64;
+			sourceTree = "<group>";
+		};
+		1A1043E620EDCBF60006EECE /* Base64 */ = {
+			isa = PBXGroup;
+			children = (
+				1A1043E720EDCBF60006EECE /* MF_Base64Additions.h */,
+				1A1043E820EDCBF60006EECE /* MF_Base64Additions.m */,
+			);
+			path = Base64;
+			sourceTree = "<group>";
+		};
+		1A1043F320EDCBF60006EECE /* JWT */ = {
+			isa = PBXGroup;
+			children = (
+				1A1043F420EDCBF60006EECE /* Core */,
+				1A10442F20EDCBF60006EECE /* LICENSE */,
+				1A10443020EDCBF60006EECE /* README.md */,
+			);
+			path = JWT;
+			sourceTree = "<group>";
+		};
+		1A1043F420EDCBF60006EECE /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				1A1043F520EDCBF60006EECE /* Algorithms */,
+				1A10441220EDCBF60006EECE /* ClaimSet */,
+				1A10441B20EDCBF60006EECE /* Coding */,
+				1A10442620EDCBF60006EECE /* FrameworkSupplement */,
+				1A10442920EDCBF60006EECE /* Supplement */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		1A1043F520EDCBF60006EECE /* Algorithms */ = {
+			isa = PBXGroup;
+			children = (
+				1A1043F620EDCBF60006EECE /* Base */,
+				1A1043FC20EDCBF60006EECE /* ESFamily */,
+				1A1043FF20EDCBF60006EECE /* Holders */,
+				1A10440420EDCBF60006EECE /* HSFamily */,
+				1A10440720EDCBF60006EECE /* RSFamily */,
+			);
+			path = Algorithms;
+			sourceTree = "<group>";
+		};
+		1A1043F620EDCBF60006EECE /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				1A1043F720EDCBF60006EECE /* JWTAlgorithm.h */,
+				1A1043F820EDCBF60006EECE /* JWTAlgorithmFactory.h */,
+				1A1043F920EDCBF60006EECE /* JWTAlgorithmFactory.m */,
+				1A1043FA20EDCBF60006EECE /* JWTAlgorithmNone.h */,
+				1A1043FB20EDCBF60006EECE /* JWTAlgorithmNone.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		1A1043FC20EDCBF60006EECE /* ESFamily */ = {
+			isa = PBXGroup;
+			children = (
+				1A1043FD20EDCBF60006EECE /* JWTAlgorithmESBase.h */,
+				1A1043FE20EDCBF60006EECE /* JWTAlgorithmESBase.m */,
+			);
+			path = ESFamily;
+			sourceTree = "<group>";
+		};
+		1A1043FF20EDCBF60006EECE /* Holders */ = {
+			isa = PBXGroup;
+			children = (
+				1A10440020EDCBF60006EECE /* JWTAlgorithmDataHolder.h */,
+				1A10440120EDCBF60006EECE /* JWTAlgorithmDataHolder.m */,
+				1A10440220EDCBF60006EECE /* JWTAlgorithmDataHolderChain.h */,
+				1A10440320EDCBF60006EECE /* JWTAlgorithmDataHolderChain.m */,
+			);
+			path = Holders;
+			sourceTree = "<group>";
+		};
+		1A10440420EDCBF60006EECE /* HSFamily */ = {
+			isa = PBXGroup;
+			children = (
+				1A10440520EDCBF60006EECE /* JWTAlgorithmHSBase.h */,
+				1A10440620EDCBF60006EECE /* JWTAlgorithmHSBase.m */,
+			);
+			path = HSFamily;
+			sourceTree = "<group>";
+		};
+		1A10440720EDCBF60006EECE /* RSFamily */ = {
+			isa = PBXGroup;
+			children = (
+				1A10440820EDCBF60006EECE /* JWTAlgorithmRSBase.h */,
+				1A10440920EDCBF60006EECE /* JWTAlgorithmRSBase.m */,
+				1A10440A20EDCBF60006EECE /* JWTRSAlgorithm.h */,
+				1A10440B20EDCBF60006EECE /* RSKeys */,
+			);
+			path = RSFamily;
+			sourceTree = "<group>";
+		};
+		1A10440B20EDCBF60006EECE /* RSKeys */ = {
+			isa = PBXGroup;
+			children = (
+				1A10440C20EDCBF60006EECE /* JWTCryptoKey.h */,
+				1A10440D20EDCBF60006EECE /* JWTCryptoKey.m */,
+				1A10440E20EDCBF60006EECE /* JWTCryptoKeyExtractor.h */,
+				1A10440F20EDCBF60006EECE /* JWTCryptoKeyExtractor.m */,
+				1A10441020EDCBF60006EECE /* JWTCryptoSecurity.h */,
+				1A10441120EDCBF60006EECE /* JWTCryptoSecurity.m */,
+			);
+			path = RSKeys;
+			sourceTree = "<group>";
+		};
+		1A10441220EDCBF60006EECE /* ClaimSet */ = {
+			isa = PBXGroup;
+			children = (
+				1A10441320EDCBF60006EECE /* JWTClaim.h */,
+				1A10441420EDCBF60006EECE /* JWTClaim.m */,
+				1A10441520EDCBF60006EECE /* JWTClaimsSet.h */,
+				1A10441620EDCBF60006EECE /* JWTClaimsSet.m */,
+				1A10441720EDCBF60006EECE /* JWTClaimsSetSerializer.h */,
+				1A10441820EDCBF60006EECE /* JWTClaimsSetSerializer.m */,
+				1A10441920EDCBF60006EECE /* JWTClaimsSetVerifier.h */,
+				1A10441A20EDCBF60006EECE /* JWTClaimsSetVerifier.m */,
+			);
+			path = ClaimSet;
+			sourceTree = "<group>";
+		};
+		1A10441B20EDCBF60006EECE /* Coding */ = {
+			isa = PBXGroup;
+			children = (
+				1A10441C20EDCBF60006EECE /* JWTCoding+ResultTypes.h */,
+				1A10441D20EDCBF60006EECE /* JWTCoding+ResultTypes.m */,
+				1A10441E20EDCBF60006EECE /* JWTCoding+VersionOne.h */,
+				1A10441F20EDCBF60006EECE /* JWTCoding+VersionOne.m */,
+				1A10442020EDCBF60006EECE /* JWTCoding+VersionThree.h */,
+				1A10442120EDCBF60006EECE /* JWTCoding+VersionThree.m */,
+				1A10442220EDCBF60006EECE /* JWTCoding+VersionTwo.h */,
+				1A10442320EDCBF60006EECE /* JWTCoding+VersionTwo.m */,
+				1A10442420EDCBF60006EECE /* JWTCoding.h */,
+				1A10442520EDCBF60006EECE /* JWTCoding.m */,
+			);
+			path = Coding;
+			sourceTree = "<group>";
+		};
+		1A10442620EDCBF60006EECE /* FrameworkSupplement */ = {
+			isa = PBXGroup;
+			children = (
+				1A10442720EDCBF60006EECE /* JWT.h */,
+				1A10442820EDCBF60006EECE /* Map.modulemap */,
+			);
+			path = FrameworkSupplement;
+			sourceTree = "<group>";
+		};
+		1A10442920EDCBF60006EECE /* Supplement */ = {
+			isa = PBXGroup;
+			children = (
+				1A10442A20EDCBF60006EECE /* JWTBase64Coder.h */,
+				1A10442B20EDCBF60006EECE /* JWTBase64Coder.m */,
+				1A10442C20EDCBF60006EECE /* JWTDeprecations.h */,
+				1A10442D20EDCBF60006EECE /* JWTErrorDescription.h */,
+				1A10442E20EDCBF60006EECE /* JWTErrorDescription.m */,
+			);
+			path = Supplement;
+			sourceTree = "<group>";
+		};
+		1A10443320EDCBF60006EECE /* SSZipArchive */ = {
+			isa = PBXGroup;
+			children = (
+				1A10443420EDCBF60006EECE /* aes */,
+				1A10444A20EDCBF60006EECE /* Common.h */,
+				1A10444B20EDCBF60006EECE /* minizip */,
+				1A10445520EDCBF60006EECE /* README.md */,
+				1A10445620EDCBF60006EECE /* SSZipArchive.h */,
+				1A10445720EDCBF60006EECE /* SSZipArchive.m */,
+			);
+			path = SSZipArchive;
+			sourceTree = "<group>";
+		};
+		1A10443420EDCBF60006EECE /* aes */ = {
+			isa = PBXGroup;
+			children = (
+				1A10443520EDCBF60006EECE /* aes.h */,
+				1A10443620EDCBF60006EECE /* aes_via_ace.h */,
+				1A10443720EDCBF60006EECE /* aescrypt.c */,
+				1A10443820EDCBF60006EECE /* aeskey.c */,
+				1A10443920EDCBF60006EECE /* aesopt.h */,
+				1A10443A20EDCBF60006EECE /* aestab.c */,
+				1A10443B20EDCBF60006EECE /* aestab.h */,
+				1A10443C20EDCBF60006EECE /* brg_endian.h */,
+				1A10443D20EDCBF60006EECE /* brg_types.h */,
+				1A10443E20EDCBF60006EECE /* entropy.c */,
+				1A10443F20EDCBF60006EECE /* entropy.h */,
+				1A10444020EDCBF60006EECE /* fileenc.c */,
+				1A10444120EDCBF60006EECE /* fileenc.h */,
+				1A10444220EDCBF60006EECE /* hmac.c */,
+				1A10444320EDCBF60006EECE /* hmac.h */,
+				1A10444420EDCBF60006EECE /* prng.c */,
+				1A10444520EDCBF60006EECE /* prng.h */,
+				1A10444620EDCBF60006EECE /* pwd2key.c */,
+				1A10444720EDCBF60006EECE /* pwd2key.h */,
+				1A10444820EDCBF60006EECE /* sha1.c */,
+				1A10444920EDCBF60006EECE /* sha1.h */,
+			);
+			path = aes;
+			sourceTree = "<group>";
+		};
+		1A10444B20EDCBF60006EECE /* minizip */ = {
+			isa = PBXGroup;
+			children = (
+				1A10444C20EDCBF60006EECE /* crypt.h */,
+				1A10444D20EDCBF60006EECE /* ioapi.c */,
+				1A10444E20EDCBF60006EECE /* ioapi.h */,
+				1A10444F20EDCBF60006EECE /* mztools.c */,
+				1A10445020EDCBF60006EECE /* mztools.h */,
+				1A10445120EDCBF60006EECE /* unzip.c */,
+				1A10445220EDCBF60006EECE /* unzip.h */,
+				1A10445320EDCBF60006EECE /* zip.c */,
+				1A10445420EDCBF60006EECE /* zip.h */,
+			);
+			path = minizip;
+			sourceTree = "<group>";
+		};
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -545,6 +956,7 @@
 		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
 			isa = PBXGroup;
 			children = (
+				1A10410120EC67510006EECE /* RNReactNativeSxfPatchclient.xcodeproj */,
 				5E91572D1DD0AC6500FF2AA8 /* RCTAnimation.xcodeproj */,
 				146833FF1AC3E56700842450 /* React.xcodeproj */,
 				00C302A71ABCB8CE00DB3ED1 /* RCTActionSheet.xcodeproj */,
@@ -573,6 +985,7 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
+				1A1043E420EDCBF60006EECE /* CodePush */,
 				13B07FAE1A68108700A75B9A /* ReactNativePatch */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				00E356EF1AD99517003FC87E /* ReactNativePatchTests */,
@@ -763,6 +1176,10 @@
 					ProductGroup = 146834001AC3E56700842450 /* Products */;
 					ProjectRef = 146833FF1AC3E56700842450 /* React.xcodeproj */;
 				},
+				{
+					ProductGroup = 1A10410220EC67510006EECE /* Products */;
+					ProjectRef = 1A10410120EC67510006EECE /* RNReactNativeSxfPatchclient.xcodeproj */;
+				},
 			);
 			projectRoot = "";
 			targets = (
@@ -829,6 +1246,13 @@
 			fileType = archive.ar;
 			path = libReact.a;
 			remoteRef = 146834031AC3E56700842450 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		1A10412B20EC67510006EECE /* libRNReactNativeSxfPatchclient.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRNReactNativeSxfPatchclient.a;
+			remoteRef = 1A10412A20EC67510006EECE /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 		2D16E6721FA4F8DC00B85C8A /* libRCTBlob-tvOS.a */ = {
@@ -1048,7 +1472,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1A10448820EDCBF60006EECE /* README.md in Resources */,
+				1A10445920EDCBF60006EECE /* README.md in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				1A10447820EDCBF60006EECE /* README.md in Resources */,
+				1A10447720EDCBF60006EECE /* LICENSE in Resources */,
 				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1114,8 +1542,54 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1A10448020EDCBF60006EECE /* hmac.c in Sources */,
+				1A10446220EDCBF60006EECE /* JWTAlgorithmFactory.m in Sources */,
+				1A10446A20EDCBF60006EECE /* JWTCryptoKeyExtractor.m in Sources */,
+				1A10446820EDCBF60006EECE /* JWTAlgorithmRSBase.m in Sources */,
+				1A10445A20EDCBF60006EECE /* CodePush.m in Sources */,
+				1A10446020EDCBF60006EECE /* CodePushUpdateUtils.m in Sources */,
+				1A10448720EDCBF60006EECE /* zip.c in Sources */,
+				1A10447D20EDCBF60006EECE /* aestab.c in Sources */,
+				1A10447F20EDCBF60006EECE /* fileenc.c in Sources */,
+				1A10447320EDCBF60006EECE /* JWTCoding+VersionTwo.m in Sources */,
 				13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */,
+				1A10446F20EDCBF60006EECE /* JWTClaimsSetVerifier.m in Sources */,
+				1A10446520EDCBF60006EECE /* JWTAlgorithmDataHolder.m in Sources */,
+				1A10447420EDCBF60006EECE /* JWTCoding.m in Sources */,
+				1A10446E20EDCBF60006EECE /* JWTClaimsSetSerializer.m in Sources */,
+				1A10447220EDCBF60006EECE /* JWTCoding+VersionThree.m in Sources */,
+				1A10446420EDCBF60006EECE /* JWTAlgorithmESBase.m in Sources */,
+				1A10448120EDCBF60006EECE /* prng.c in Sources */,
+				1A10445B20EDCBF60006EECE /* CodePushConfig.m in Sources */,
+				1A10445E20EDCBF60006EECE /* CodePushPackage.m in Sources */,
+				1A10448920EDCBF60006EECE /* SSZipArchive.m in Sources */,
+				1A10447C20EDCBF60006EECE /* aeskey.c in Sources */,
+				1A10446C20EDCBF60006EECE /* JWTClaim.m in Sources */,
+				1A10447A20EDCBF60006EECE /* RCTConvert+CodePushUpdateState.m in Sources */,
+				1A10445D20EDCBF60006EECE /* CodePushErrorUtils.m in Sources */,
 				13B07FC11A68108700A75B9A /* main.m in Sources */,
+				1A10445820EDCBF60006EECE /* MF_Base64Additions.m in Sources */,
+				1A10447620EDCBF60006EECE /* JWTErrorDescription.m in Sources */,
+				1A10447E20EDCBF60006EECE /* entropy.c in Sources */,
+				1A10446B20EDCBF60006EECE /* JWTCryptoSecurity.m in Sources */,
+				1A10445C20EDCBF60006EECE /* CodePushDownloadHandler.m in Sources */,
+				1A10448520EDCBF60006EECE /* mztools.c in Sources */,
+				1A10446320EDCBF60006EECE /* JWTAlgorithmNone.m in Sources */,
+				1A10448420EDCBF60006EECE /* ioapi.c in Sources */,
+				1A10447920EDCBF60006EECE /* RCTConvert+CodePushInstallMode.m in Sources */,
+				1A10446120EDCBF60006EECE /* CodePushUtils.m in Sources */,
+				1A10447120EDCBF60006EECE /* JWTCoding+VersionOne.m in Sources */,
+				1A10447020EDCBF60006EECE /* JWTCoding+ResultTypes.m in Sources */,
+				1A10446920EDCBF60006EECE /* JWTCryptoKey.m in Sources */,
+				1A10446D20EDCBF60006EECE /* JWTClaimsSet.m in Sources */,
+				1A10446720EDCBF60006EECE /* JWTAlgorithmHSBase.m in Sources */,
+				1A10447520EDCBF60006EECE /* JWTBase64Coder.m in Sources */,
+				1A10448320EDCBF60006EECE /* sha1.c in Sources */,
+				1A10445F20EDCBF60006EECE /* CodePushTelemetryManager.m in Sources */,
+				1A10447B20EDCBF60006EECE /* aescrypt.c in Sources */,
+				1A10448220EDCBF60006EECE /* pwd2key.c in Sources */,
+				1A10448620EDCBF60006EECE /* unzip.c in Sources */,
+				1A10446620EDCBF60006EECE /* JWTAlgorithmDataHolderChain.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1205,6 +1679,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODEPUSH_KEY = "";
 				CURRENT_PROJECT_VERSION = 1;
 				DEAD_CODE_STRIPPING = NO;
 				INFOPLIST_FILE = ReactNativePatch/Info.plist;
@@ -1223,6 +1698,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODEPUSH_KEY = "";
 				CURRENT_PROJECT_VERSION = 1;
 				INFOPLIST_FILE = ReactNativePatch/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -1373,7 +1849,6 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 			};
@@ -1408,7 +1883,6 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
