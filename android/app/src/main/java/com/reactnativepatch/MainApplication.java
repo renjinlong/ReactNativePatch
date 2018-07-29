@@ -34,7 +34,7 @@ public class MainApplication extends Application implements ReactApplication {
                         getResources().getString(R.string.reactNativeCodePush_androidDeploymentKey), 
                         getApplicationContext(), 
                         BuildConfig.DEBUG,
-                        "http://172.18.40.92:3000")
+                        "http://116.196.98.85:3000")
             );
         }
 

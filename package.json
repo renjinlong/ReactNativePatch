@@ -9,6 +9,8 @@
   "dependencies": {
     "react": "16.3.1",
     "react-native": "0.55.4",
+    "react-native-root-modal": "^1.3.0",
+    "react-native-root-toast": "^1.3.0",
     "react-native-sxf-patchclient": "^1.0.2"
   },
   "devDependencies": {

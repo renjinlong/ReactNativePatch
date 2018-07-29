@@ -9,10 +9,16 @@ import {
   Platform,
   StyleSheet,
   Text,
-  View
+  View,
+  Alert,
+  TouchableOpacity
 } from 'react-native';
 
-import codepush from "react-native-sxf-patchclient";
+// import CustomModal from './node_modules/react-native-sxf-patchclient/CustomModal';
+
+import UpdateComp from './app/UpdateComp';
+import RootToast from 'react-native-root-toast';
+// import codepush from "react-native-sxf-patchclient";
 
 const instructions = Platform.select({
   ios: 'Press Cmd+R to reload,\n' +
@@ -22,20 +28,19 @@ const instructions = Platform.select({
 });
 
 
-
 type Props = {};
 export default class App extends Component<Props> {
 
-  componentWillMount() {
-    // console.log(codePush);
-    codepush.sync({
-      updateDialog: true,
-      installMode: codepush.InstallMode.IMMEDIATE,
-      mandatoryInstallMode: codepush.InstallMode.IMMEDIATE,
-      //deploymentKey为刚才生成的,打包哪个平台的App就使用哪个Key,这里用IOS的打包测试
-      // deploymentKey: 'IjC3_iRGEZE8-9ikmBZ4ITJTz9wn6dec4087-57cf-4c9d-b0dc-ad38ce431e1d',
-    });
-  }
+  // componentWillMount() {
+  //   // console.log(codePush);
+  //   codepush.sync({
+  //     updateDialog: true,
+  //     installMode: codepush.InstallMode.IMMEDIATE,
+  //     mandatoryInstallMode: codepush.InstallMode.IMMEDIATE,
+  //     //deploymentKey为刚才生成的,打包哪个平台的App就使用哪个Key,这里用IOS的打包测试
+  //     // deploymentKey: 'IjC3_iRGEZE8-9ikmBZ4ITJTz9wn6dec4087-57cf-4c9d-b0dc-ad38ce431e1d',
+  //   });
+  // }
 
   render() {
     return (
@@ -49,6 +54,15 @@ export default class App extends Component<Props> {
         <Text style={styles.instructions}>
           {instructions}
         </Text>
+        <TouchableOpacity style={{ backgroundColor: '#FFFFFF' }}
+          onPress={() => RootToast.show(<Text>jhfdjffhdfjh</Text>, {
+            position: 0,
+            duration: 1500
+          })}
+        >
+          <Text>点我</Text>
+        </TouchableOpacity>
+        <UpdateComp {...this.props} />
       </View>
     );
   }
