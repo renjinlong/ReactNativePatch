@@ -17,7 +17,6 @@ import {
 // import CustomModal from './node_modules/react-native-sxf-patchclient/CustomModal';
 
 import UpdateComp from './app/UpdateComp';
-import RootToast from 'react-native-root-toast';
 // import codepush from "react-native-sxf-patchclient";
 
 const instructions = Platform.select({
@@ -55,10 +54,7 @@ export default class App extends Component<Props> {
           {instructions}
         </Text>
         <TouchableOpacity style={{ backgroundColor: '#FFFFFF' }}
-          onPress={() => RootToast.show(<Text>jhfdjffhdfjh</Text>, {
-            position: 0,
-            duration: 1500
-          })}
+          onPress={() => { }}
         >
           <Text>点我</Text>
         </TouchableOpacity>

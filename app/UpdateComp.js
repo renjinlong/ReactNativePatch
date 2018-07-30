@@ -85,6 +85,7 @@ class UpdateComp extends PureComponent {
     componentWillMount() {
         CodePush.disallowRestart();
         this.syncImmediate();
+
     }
 
     componentDidMount() {
@@ -102,22 +103,23 @@ class UpdateComp extends PureComponent {
                 <View style={styles.modal}>
                     <View style={styles.modalContainer}>
                         <View>
-                            {/* <Image style={{ width: deviceWidth - 60 }} source={require('../../../assets/images/me/updateBg.png')} resizeMode={'stretch'} /> */}
-                            <Image style={{ width: deviceWidth - 60 }} resizeMode={'stretch'} />
-                            <View style={{ backgroundColor: '#FFFFFF', paddingVertical: 20, backgroundColor: '#FFFFFF', alignItems: 'center' }}>
+                            <Image source={require('./assets/update/update_pb_bg.png')} />
+
+                            <View style={{ position: 'absolute', bottom: 0, justifyContent: 'flex-end' }}>
                                 <Progress
                                     ref="progressBar"
-                                    progressColor={'#89C0FF'}
+                                    progressColor={'#7CBEFA'}
                                     style={{
                                         marginTop: 20,
                                         height: 10,
                                         width: deviceWidth - 100,
-                                        backgroundColor: '#FFFFFF',
+                                        backgroundColor: '#F1F1F1',
                                         borderRadius: 10,
+                                        marginLeft: 6
                                     }}
                                 />
-                                <View style={{ alignItems: 'center', marginVertical: 20 }}>
-                                    <Text style={{ fontSize: 14, color: '#E5E5E5' }}>版本正在努力更新中，请等待</Text>
+                                <View style={{ alignItems: 'center', marginVertical: 14 }}>
+                                    <Text style={{ fontSize: 14, color: '#BFBFBF' }}>版本正在努力更新中，请等待</Text>
                                 </View>
                             </View>
                         </View>
@@ -151,7 +153,6 @@ const styles = StyleSheet.create({
         backgroundColor: 'rgba(0,0,0,0.3)'
     },
     modalContainer: {
-        marginHorizontal: 60,
         borderBottomLeftRadius: 10,
         borderBottomRightRadius: 10,
     }
