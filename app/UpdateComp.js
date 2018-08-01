@@ -9,10 +9,19 @@ const deviceWidth = Dimensions.get('window').width;
 const deviceHeight = Dimensions.get('window').height;
 
 let codePushOptions = {
-    updateDialog: true,
-    checkFrequency: CodePush.CheckFrequency.ON_APP_START,
+    updateDialog: {
+        appendReleaseDescription: true,
+        descriptionPrefix: '',
+        mandatoryUpdateMessage: '',
+        optionalUpdateMessage: '',
+        mandatoryContinueButtonLabel: '立即更新',
+        optionalIgnoreButtonLabel: '残忍拒绝',
+        optionalInstallButtonLabel: '立即更新',
+    },
+    checkFrequency: CodePush.CheckFrequency.ON_NEXT_RESUME,
     installMode: CodePush.InstallMode.IMMEDIATE,
     mandatoryInstallMode: CodePush.InstallMode.IMMEDIATE,
+
 }
 
 class UpdateComp extends PureComponent {
