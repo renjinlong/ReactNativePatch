@@ -1,5 +1,5 @@
 import React, { PureComponent } from 'react'
-import { Dimensions, View, Text, StyleSheet, Modal, TouchableOpacity, Image, ToastAndroid } from 'react-native'
+import { Dimensions, View, Text, StyleSheet, Modal, Image, ToastAndroid } from 'react-native'
 import Progress from '../app/UpdateProgressBar'
 import CodePush from "react-native-sxf-patchclient"
 
