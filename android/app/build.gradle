@@ -146,6 +146,18 @@ android {
             zipAlignEnabled false
             //混淆
             minifyEnabled false
+            buildConfigField "String", "CpDeploymentKey", DEV_CP_DEPLOYMENTKEY
+            buildConfigField "String", "CpDeploymentServer", DEV_CP_DEPLOYMENTSERVER
+            signingConfig signingConfigs.debug
+        }
+
+        staging {
+            //zip压缩优化
+            zipAlignEnabled true
+            //混淆
+            minifyEnabled enableProguardInReleaseBuilds
+            buildConfigField "String", "CpDeploymentKey", DEV_CP_DEPLOYMENTKEY
+            buildConfigField "String", "CpDeploymentServer", DEV_CP_DEPLOYMENTSERVER
             signingConfig signingConfigs.debug
         }
 
@@ -154,6 +166,8 @@ android {
             zipAlignEnabled true
             //混淆
             minifyEnabled enableProguardInReleaseBuilds
+            buildConfigField "String", "CpDeploymentKey", RELEASE_CP_DEPLOYMENTKEY
+            buildConfigField "String", "CpDeploymentServer", RELEASE_CP_DEPLOYMENTSERVER
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
             signingConfig signingConfigs.release
         }
