@@ -3,6 +3,7 @@ package com.reactnativepatch;
 import android.app.Application;
 
 import com.facebook.react.ReactApplication;
+import com.sxfjr.rnpatching.CodePush;
 import com.facebook.react.ReactNativeHost;
 import com.facebook.react.ReactPackage;
 import com.facebook.react.shell.MainReactPackage;

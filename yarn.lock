@@ -4183,28 +4183,24 @@ react-is@^16.3.1:
   version "16.4.1"
   resolved "https://registry.npmjs.org/react-is/-/react-is-16.4.1.tgz#d624c4650d2c65dbd52c72622bbf389435d9776e"
 
-react-native-root-modal@^1.3.0:
-  version "1.6.0"
-  resolved "https://registry.npmjs.org/react-native-root-modal/-/react-native-root-modal-1.6.0.tgz#67bf6f23b61abc61cf58b245d1ef6822c209f262"
-  dependencies:
-    react-native-root-siblings "^1.3.0"
-
 react-native-root-siblings@^1.3.0:
   version "1.3.0"
   resolved "https://registry.npmjs.org/react-native-root-siblings/-/react-native-root-siblings-1.3.0.tgz#46e40634a5ed84737965863b4dc551fa0e251c68"
   dependencies:
     static-container "^1.0.0"
 
-react-native-root-toast@^1.3.0:
-  version "1.4.0"
-  resolved "https://registry.npmjs.org/react-native-root-toast/-/react-native-root-toast-1.4.0.tgz#29249d5ba39c7a87223a4a06a2e583e883a1a3dc"
+react-native-root-updatemodal@^1.0.0:
+  version "1.0.3"
+  resolved "https://registry.npmjs.org/react-native-root-updatemodal/-/react-native-root-updatemodal-1.0.3.tgz#2646452485f469c3af4558f50f96080b8ed59d46"
   dependencies:
     prop-types "^15.5.10"
     react-native-root-siblings "^1.3.0"
 
-react-native-sxf-patchclient@^1.0.2:
-  version "1.0.3"
-  resolved "https://registry.npmjs.org/react-native-sxf-patchclient/-/react-native-sxf-patchclient-1.0.3.tgz#47011edc6948dfbbb26202c88d8908212c042afe"
+react-native-sxf-patchclient@^1.0.7:
+  version "1.0.7"
+  resolved "https://registry.npmjs.org/react-native-sxf-patchclient/-/react-native-sxf-patchclient-1.0.7.tgz#3809beb05a870b59fb7776eb2b5e66bf6fc3c239"
+  dependencies:
+    react-native-root-updatemodal "^1.0.0"
 
 react-native@0.55.4:
   version "0.55.4"

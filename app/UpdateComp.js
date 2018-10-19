@@ -94,7 +94,6 @@ class UpdateComp extends PureComponent {
     componentWillMount() {
         CodePush.disallowRestart();
         this.syncImmediate();
-
     }
 
     componentDidMount() {

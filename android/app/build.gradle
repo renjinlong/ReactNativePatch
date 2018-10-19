@@ -96,14 +96,14 @@ def enableProguardInReleaseBuilds = false
 
 android {
     compileSdkVersion 23
-    buildToolsVersion "23.0.1"
+    buildToolsVersion '25.0.0'
 
     defaultConfig {
         applicationId "com.reactnativepatch"
         minSdkVersion 16
         targetSdkVersion 22
         versionCode 1
-        versionName "1.0.1"
+        versionName "1.0.0"
         ndk {
             abiFilters "armeabi-v7a", "x86"
         }
@@ -146,16 +146,6 @@ android {
             zipAlignEnabled false
             //混淆
             minifyEnabled false
-            buildConfigField "String", "CpDeploymentKey", DEV_CP_DEPLOYMENTKEY
-            buildConfigField "String", "CpDeploymentServer", DEV_CP_DEPLOYMENTSERVER
-            signingConfig signingConfigs.debug
-        }
-
-        staging {
-            //zip压缩优化
-            zipAlignEnabled true
-            //混淆
-            minifyEnabled enableProguardInReleaseBuilds
             buildConfigField "String", "CpDeploymentKey", DEV_CP_DEPLOYMENTKEY
             buildConfigField "String", "CpDeploymentServer", DEV_CP_DEPLOYMENTSERVER
             signingConfig signingConfigs.debug

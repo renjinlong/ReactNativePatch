@@ -10,7 +10,6 @@ import {
   StyleSheet,
   Text,
   View,
-  Alert,
   TouchableOpacity
 } from 'react-native';
 
@@ -25,7 +24,6 @@ const instructions = Platform.select({
   android: 'Double tap R on your keyboard to reload,\n' +
     'Shake or press menu button for dev menu',
 });
-
 
 type Props = {};
 export default class App extends Component<Props> {
@@ -45,7 +43,7 @@ export default class App extends Component<Props> {
     return (
       <View style={styles.container}>
         <Text style={styles.welcome}>
-          Welcome to React Native!
+          Welcome to test-----！----
         </Text>
         <Text style={styles.instructions}>
           To get started, edit App.js
@@ -58,7 +56,10 @@ export default class App extends Component<Props> {
         >
           <Text>点我</Text>
         </TouchableOpacity>
-        <UpdateComp {...this.props} />
+
+        <UpdateComp
+          {...this.props}
+        />
       </View>
     );
   }
