@@ -13,10 +13,10 @@ import {
   TouchableOpacity
 } from 'react-native';
 
-// import CustomModal from './node_modules/react-native-sxf-patchclient/CustomModal';
 
 import UpdateComp from './app/UpdateComp';
-// import codepush from "react-native-sxf-patchclient";
+import codepush from "react-native-sxf-patchclient";
+import DeviceInfo from 'react-native-device-info';
 
 const instructions = Platform.select({
   ios: 'Press Cmd+R to reload,\n' +
@@ -39,11 +39,27 @@ export default class App extends Component<Props> {
   //   });
   // }
 
+  componentWillMount() {
+    codepush.getUpdateMetadata(codepush.codePushUpdateStateRunning).then((update) => {
+      if (update) {
+        appVersion = update.appVersion + '.' + update.appointLable.replace('v', '');
+      } else {
+        appVersion = DeviceInfo.getVersion() + '.0';
+      }
+
+      console.log('appVersion:' + appVersion);
+      alert('appVersion:' + appVersion);
+
+    }).catch((err) => {
+      console.log("--------", err);
+    });
+  }
+
   render() {
     return (
       <View style={styles.container}>
         <Text style={styles.welcome}>
-          Welcome to test-----！----
+          Welcome to test--!
         </Text>
         <Text style={styles.instructions}>
           To get started, edit App.js

@@ -63,7 +63,8 @@ class UpdateComp extends PureComponent {
             case CodePush.SyncStatus.UNKNOWN_ERROR:
                 this.syncMessage = 'An unknown error occurred'
                 // Toast.showError('更新出错，请重启应用！')
-                ToastAndroid.show('更新出错，请重启应用！', ToastAndroid.LONG);
+                // ToastAndroid.show('更新出错，请重启应用！', ToastAndroid.LONG);
+                alert('更新出错');
                 this.setState({ modalVisible: false })
                 break;
         }

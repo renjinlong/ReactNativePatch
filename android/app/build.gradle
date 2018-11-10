@@ -116,6 +116,7 @@ android {
             include "armeabi-v7a", "x86"
         }
     }
+
     buildTypes {
         release {
             minifyEnabled enableProguardInReleaseBuilds
@@ -156,8 +157,10 @@ android {
             zipAlignEnabled true
             //混淆
             minifyEnabled enableProguardInReleaseBuilds
-            buildConfigField "String", "CpDeploymentKey", RELEASE_CP_DEPLOYMENTKEY
-            buildConfigField "String", "CpDeploymentServer", RELEASE_CP_DEPLOYMENTSERVER
+            // buildConfigField "String", "CpDeploymentKey", RELEASE_CP_DEPLOYMENTKEY
+            // buildConfigField "String", "CpDeploymentServer", RELEASE_CP_DEPLOYMENTSERVER
+            buildConfigField "String", "CpDeploymentKey", DEV_CP_DEPLOYMENTKEY
+            buildConfigField "String", "CpDeploymentServer", DEV_CP_DEPLOYMENTSERVER
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
             signingConfig signingConfigs.release
         }
@@ -179,6 +182,7 @@ android {
 }
 
 dependencies {
+    compile project(':react-native-device-info')
     compile fileTree(dir: "libs", include: ["*.jar"])
     compile "com.android.support:appcompat-v7:23.0.1"
     compile "com.facebook.react:react-native:+"  // From node_modules
