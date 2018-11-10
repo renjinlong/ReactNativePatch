@@ -48,7 +48,9 @@ export default class App extends Component<Props> {
       }
 
       console.log('appVersion:' + appVersion);
-      alert('appVersion:' + appVersion);
+      setTimeout(() => {
+        alert('appVersion:' + appVersion);
+      }, 3000);
 
     }).catch((err) => {
       console.log("--------", err);
